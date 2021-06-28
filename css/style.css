@@ -26,7 +26,7 @@ h5 {
     position: relative;
 }
 .green-line {
-    height: 14vh;
+    height: 13vh;
     background-color: #009688;
 }
 
@@ -137,10 +137,14 @@ h5 {
     border-bottom: lightgray 1px solid;
     padding:30px;
     padding: 9px 25px;
+    transition: 1.5s linear;
 }
 .box-chat li img {
     width: 70px;
     border-radius: 50%;
+}
+.box-chat li:hover {
+    background-color: lightslategray;
 }
 
 /* right aside */
@@ -185,5 +189,7 @@ h5 {
     padding: 2%;
     border-radius: 15px;
     border: none;
-
+}
+.box-mex i {
+    cursor: pointer;
 }
