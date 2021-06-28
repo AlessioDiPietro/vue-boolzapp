@@ -70,6 +70,8 @@
 }
 
 /* main */
+
+/* adv-notifiche */
 #adv-notifiche {
     display: flex;
     align-items: center;
@@ -88,4 +90,30 @@
 .attiva-notifiche a{
     color: #4f7485;
 
+}
+
+/* ricerca chat barra */
+#ricerca-chat {
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+}
+.box-ricerca {
+    padding: 8px;
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: #ffffff;
+}
+.box-ricerca input {
+    border: none;
+    border-left: 1px solid lightgray;
+    height: 30px;
+    width: 90%;
+    margin-left: 3%;
+    padding: 2%;
+    color: gray;
+    font-size: 15px;
 }
