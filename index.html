@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- favicon -->
     <link rel="icon" type="image/png" href="https://pngimg.com/uploads/whatsapp/small/whatsapp_PNG95156.png"/>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Boolzapp Web</title>
 </head>
 <body>
@@ -65,7 +69,7 @@
                             <!-- testo attiva -->
                             <div class="attiva-notifiche">
                                 <h4>Ricevi Notifiche di nuovi messaggi</h4>
-                                <a href="active">
+                                <a href="#">
                                     Attiva notifiche desktop
                                 </a>
                             </div>
@@ -105,8 +109,34 @@
 
 
             <!-- right side (sezione chat) -->
-            <aside>
+            <aside id="right">
 
+                <!-- profilo chat aperta -->
+                <header>
+                    <div class="box-utente">
+                        <!-- profilo -->
+                        <div class="box-profilo">
+                            <img src="img/avatar_io.jpg" alt="foto profilo utente">
+                            <div class="mittente">
+                                <h3>Michele</h3>
+                                <div class="accesso-data">Ultimo accesso oggi alle</div>
+                            </div>
+                        </div>
+                        <!-- btn -->
+                        <div class="box-btn">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-paperclip"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                
             </aside>
 
 
