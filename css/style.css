@@ -48,6 +48,7 @@ h5 {
 #left {
     width: 35%;
     background-color: #fff;
+    position: relative;
 }
 .box-utente {
     display: flex;
@@ -118,7 +119,7 @@ h5 {
     border-radius: 5px;
     height: 40px;
     width: 88%;
-    padding: 3% 1%;
+    padding: 2% 1%;
     color: gray;
     font-size: 12px;
 }
@@ -145,12 +146,44 @@ h5 {
 /* right aside */
 #right {
     width: 65%;
+    background-image: url("../img/mine.jpg");
 }
+
+/* header */
 #right .box-btn{
     min-width: 10%;
 }
 .accesso-data {
     color:#b1b1b1 ;
     font-size: 12px;
-    
+}
+
+/* main */
+
+
+/* barra inserimento mex */
+#inserimento-mex {
+    width: 65%;
+    height: 85px;
+    background-color: #f3eeea;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    font-size: 30px;
+    color: grey;
+}
+.box-mex {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mex-ins {
+    width: 85%;
+    height: 75%;
+    margin:0 -25px;
+    padding: 2%;
+    border-radius: 15px;
+    border: none;
+
 }
