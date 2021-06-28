@@ -100,20 +100,25 @@
     background-color: #fafafa;
 }
 .box-ricerca {
-    padding: 8px;
     font-size: 20px;
     width: 100%;
-    border: 1px solid gray;
-    margin: 10px;
-    background-color: #ffffff;
+    background-color: white;
+    margin: 5% 3%;
+    border-radius: 5px;
 }
 .box-ricerca input {
     border: none;
-    border-left: 1px solid lightgray;
+    border-radius: 5px;
     height: 30px;
-    width: 90%;
-    margin-left: 3%;
-    padding: 2%;
+    width: 94%;
+    padding: 3% 1%;
     color: gray;
     font-size: 15px;
+}
+.box-ricerca i {
+    padding: 3px;
+}
+/* chat-list */
+#chat-list {
+    
 }
