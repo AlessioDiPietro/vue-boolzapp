@@ -1,3 +1,69 @@
-body {
-    background-color: blue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
+/* area debug */
+.container {
+    background-color: pink;
+}
+/* fine area debug */
+
+
+
+/* background boolzapp */
+.gen-container {
+    background-color: #d7dbd7;
+    height: 100vh;
+    position: relative;
+}
+.green-line {
+    height: 14vh;
+    background-color: #009688;
+}
+
+/* boolzapp web */
+.container {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+/* left aside */
+#left {
+    width: 35%
+}
+.box-utente {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: #eaeaea;
+    font-size: 20px;
+}
+.box-utente img {
+    border-radius: 50%;
+    width: 60px;
+}
+.box-utente h3 {
+    display: inline-block;
+}
+.box-utente a {
+    color: #b1b1b1;
+}
+.box-profilo, .box-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-btn {
+    min-width: 20%;
+    margin: 2%;
+}
+
