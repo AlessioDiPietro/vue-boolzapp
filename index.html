@@ -92,16 +92,14 @@
                         <!-- chat-list -->
                         <section id="chat-list">
 
-                            <div class="box-chat">
+                            
+                            <ul>
+                                <li v-for="items in contacts">
+                                    <img :src="items.avatar" alt="">
+                                    <h5>{{items.nome}}</h5>
+                                </li>
+                            </ul>
 
-                                <ul>
-                                    <li v-for="items in contacts">
-                                        <img :src="items.avatar" alt="">
-                                        <h5>{{items.nome}}</h5>
-                                    </li>
-                                </ul>
-
-                            </div>
 
                         </section>
                     </div>
