@@ -52,7 +52,6 @@ h5 {
 #left {
     min-width: 35%;
     background-color: #fff;
-    position: relative;
 }
 .box-utente {
     display: flex;
@@ -136,6 +135,10 @@ h5 {
     font-size: 27px;
     height: 100%;
 }
+.box-chat ul {
+    max-height: 300px;
+    overflow-y: scroll;
+}
 .box-chat li{
     list-style: none;
     border-bottom: lightgray 1px solid;
@@ -168,7 +171,8 @@ h5 {
 
 /* main */
 /* chat-messaggi */
-#area-chat {
+.container-main {
+    min-height: 64vh;
 }
 .mex {
     max-width: 45%;
