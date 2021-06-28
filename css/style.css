@@ -9,7 +9,11 @@ h5 {
     vertical-align: top;
     margin-left: 10px;
 }
-
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
 
 /* area debug */
 .container {
@@ -46,7 +50,7 @@ h5 {
 
 /* header */
 #left {
-    width: 35%;
+    min-width: 35%;
     background-color: #fff;
     position: relative;
 }
@@ -109,7 +113,7 @@ h5 {
 }
 .box-ricerca {
     font-size: 17px;
-    width: 88%;
+    min-width: 88%;
     background-color: white;
     margin: 2% 3%;
     border-radius: 5px;
@@ -163,7 +167,24 @@ h5 {
 }
 
 /* main */
-
+/* chat-messaggi */
+#area-chat {
+}
+.mex {
+    max-width: 45%;
+    border-radius: 18px;
+    padding: 12px 20px;
+    margin: 15px;
+}
+.messaggio-utente {
+    background-color: rgba(38, 121, 38, 0.972);
+    float: right;
+}
+.messaggio-mitt {
+    background-color: rgba(228, 228, 228, 0.972);
+    display: table;
+    
+}
 
 /* barra inserimento mex */
 #inserimento-mex {
