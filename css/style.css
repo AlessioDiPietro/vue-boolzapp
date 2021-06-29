@@ -211,10 +211,12 @@ h5 {
 .messaggio-utente {
     background-color: rgba(38, 121, 38, 0.972);
     float: right;
+    margin-left: 300px;
 }
 .messaggio-mitt {
     background-color: rgba(228, 228, 228, 0.972);
     float: left;
+    margin-right: 300px;
     
     
 }
