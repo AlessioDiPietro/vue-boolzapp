@@ -189,12 +189,22 @@ const app = new Vue ({
                     },
                 ]
             }
-            
-        ]
+        ],
+        newMex: {
+            text:"",
+            status: "sent"
+        }
     },
     methods: {
         changeUser(indice){
             this.userSelect = indice;
+        },
+        addMex(){
+            this.contacts.push(this.newMex.text)
+            this.newMex = {
+                text:"",
+                status:""
+            };
         }
     }
 });
