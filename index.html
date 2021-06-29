@@ -120,7 +120,7 @@
                             <img :src="contacts[userSelect].avatar" alt="foto">
                             <div class="destinatario">
                                 <h3>{{contacts[userSelect].nome}}</h3>
-                                <div class="accesso-data">Ultimo accesso oggi alle 10:05:23</div>
+                                <div class="accesso-data">Ultimo accesso oggi alle {{contacts[userSelect].lastAcc}}</div>
                             </div>
                         </div>
                         <!-- btn -->
@@ -146,8 +146,8 @@
                         <!-- chat-messaggi -->
                         <section id="area-chat" class="clearfix">
 
-                            <div class="mex messaggio-utente">Ciao</div>
                             <div class="mex messaggio-mitt">Scusa non ti conosco!</div>
+                            <div class="mex messaggio-utente">Ciao</div>
                             
 
                         </section>

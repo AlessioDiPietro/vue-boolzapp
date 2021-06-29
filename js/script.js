@@ -11,7 +11,7 @@ const app = new Vue ({
             {
                 nome:"Michele",
                 avatar: "img/avatar_1.jpg",
-                lastAcc: "11/03/2020 09:12:12",
+                lastAcc: "09:12",
                 message: [
                     {
                         date: "10/01/2020 15:30:35",
@@ -33,7 +33,7 @@ const app = new Vue ({
             {
                 nome:"Fabio",
                 avatar: "img/avatar_2.jpg",
-                lastAcc: "21/03/2020 19:23:59",
+                lastAcc: "19:23",
                 message: [
                     {
                         date: "10/01/2020 15:30:35",
@@ -55,7 +55,7 @@ const app = new Vue ({
             {
                 nome:"Samuele",
                 avatar: "img/avatar_3.jpg",
-                lastAcc: "30/03/2020 14:43:01",
+                lastAcc: "14:43",
                 message: [
                     {
                         date: "10/01/2020 15:30:35",
@@ -77,22 +77,112 @@ const app = new Vue ({
             {
                 nome:"Antonio",
                 avatar: "img/avatar_4.jpg",
+                lastAcc: "09:12",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Giovanni",
                 avatar: "img/avatar_5.jpg",
+                lastAcc: "23:06",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "08/03/2020 15:30:00",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "22/06/2020 18:23:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Paola",
                 avatar: "img/avatar_6.jpg",
+                lastAcc: "12:12",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "19/09/2020 10::12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Elisa",
                 avatar: "img/avatar_7.jpg",
+                lastAcc: "19:56",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Marco",
                 avatar: "img/avatar_8.jpg",
+                lastAcc: "09:40",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             }
             
         ]
