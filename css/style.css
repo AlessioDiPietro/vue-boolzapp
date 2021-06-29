@@ -51,12 +51,16 @@ h5 {
 /* header */
 #left {
     min-width: 35%;
+    height: 100%;
     background-color: #fff;
+}
+#left header {
+    height: 85px;
 }
 .box-utente {
     display: flex;
     justify-content: space-between;
-    height: 85px;
+    height: 100%;
     background-color: #eaeaea;
     font-size: 20px;
 }
@@ -82,7 +86,7 @@ h5 {
 
 /* main */
 #left main {
-    height: 90%;
+    height: calc(100% - 85px);
     min-height: 50%;
 }
 #left .container-main {
@@ -112,17 +116,16 @@ h5 {
 
 /* ricerca chat barra */
 #ricerca-chat {
-    max-height: 60px;
+    height: 75px;
     display: flex;
     align-items: center;
     background-color: #fafafa;
 }
 .box-ricerca {
     font-size: 17px;
-    min-width: 88%;
-    background-color: white;
-    margin: 2% 3%;
+    min-width: 100%;
     border-radius: 5px;
+    padding: 2% 3%;
 }
 .box-ricerca input {
     border: none;
@@ -134,14 +137,14 @@ h5 {
     font-size: 12px;
 }
 .box-ricerca i {
-    margin: 0px 20px;
+    padding: 11px;
+    background-color: white;
 }
 /* chat-list */
 #chat-list {
     background-color: white;
     font-size: 27px;
-    height: 79%;
-    min-height: 50%;
+    height: calc(100% - 170px)
 }
 #chat-list ul {
     overflow-y: scroll;
@@ -166,7 +169,10 @@ h5 {
 /* right aside */
 #right {
     width: 65%;
-    background-image: url("../img/mine.jpg");
+    height: 100%;
+}
+#right header {
+    height: 85px;
 }
 
 /* header */
@@ -179,9 +185,18 @@ h5 {
 }
 
 /* main */
-/* chat-messaggi */
+#right main {
+    height: calc(100% - 85px);
+}
 .container-main {
-    min-height: 64vh;
+    height: 100%;
+}
+/* chat-messaggi */
+#area-chat {
+    height: calc(100% - 85px);
+    background-image: url("../img/mine.jpg");
+    overflow-y: scroll;
+    width: 100%;
 }
 .mex {
     max-width: 45%;
