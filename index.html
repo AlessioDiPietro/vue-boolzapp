@@ -146,9 +146,11 @@
                         <!-- chat-messaggi -->
                         <section id="area-chat" class="clearfix">
 
-                            <div class="mex messaggio-mitt">Scusa non ti conosco!</div>
-                            <div class="mex messaggio-utente">Ciao</div>
-                            
+
+                            <ul>
+                                <li :class="(texture.status === 'sent') ? 'messaggio-utente mex' : 'messaggio-mitt mex' " v-for="texture in contacts[userSelect].message">{{texture.text}}</li>
+
+                            </ul>
 
                         </section>
 

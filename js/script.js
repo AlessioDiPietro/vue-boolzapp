@@ -21,7 +21,7 @@ const app = new Vue ({
                     {
                         date: "10/01/2020 15:50:12",
                         text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
+                        status: "received",
                     },
                     {
                         date: "10/01/2020 16:12:25",
@@ -37,7 +37,7 @@ const app = new Vue ({
                 message: [
                     {
                         date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        text: "alle 5 del pomeriggio, mio caro SpiderMan!",
                         status: "sent",
                     },
                     {

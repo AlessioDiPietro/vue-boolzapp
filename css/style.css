@@ -199,6 +199,9 @@ h5 {
     width: 100%;
     padding: 25px;
 }
+#area-chat ul li {
+    list-style: none;
+}
 .mex {
     max-width: 45%;
     border-radius: 18px;
@@ -211,8 +214,8 @@ h5 {
 }
 .messaggio-mitt {
     background-color: rgba(228, 228, 228, 0.972);
-    display: inline;
-
+    float: left;
+    
     
 }
 
