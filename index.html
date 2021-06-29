@@ -94,8 +94,8 @@
 
                             
                             <ul>
-                                <li v-for="items in contacts">
-                                    <img :src="items.avatar" alt="">
+                                <li v-for="(items, index) in contacts" @click="changeUser(index)">
+                                    <img :src="items.avatar" alt="user">
                                     <h5>{{items.nome}}</h5>
                                 </li>
                             </ul>
@@ -117,10 +117,10 @@
                     <div class="box-utente">
                         <!-- profilo destinatario-->
                         <div class="box-profilo">
-                            <img src="img/avatar_1.jpg" alt="foto">
+                            <img :src="contacts[userSelect].avatar" alt="foto">
                             <div class="destinatario">
-                                <h3>Michele</h3>
-                                <div class="accesso-data">Ultimo accesso oggi alle</div>
+                                <h3>{{contacts[userSelect].nome}}</h3>
+                                <div class="accesso-data">Ultimo accesso oggi alle 10:05:23</div>
                             </div>
                         </div>
                         <!-- btn -->

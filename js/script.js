@@ -6,18 +6,73 @@ const app = new Vue ({
     el: "#app",
 
     data: {
+        userSelect: 0,
         contacts: [
             {
                 nome:"Michele",
                 avatar: "img/avatar_1.jpg",
+                lastAcc: "11/03/2020 09:12:12",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Fabio",
                 avatar: "img/avatar_2.jpg",
+                lastAcc: "21/03/2020 19:23:59",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Samuele",
                 avatar: "img/avatar_3.jpg",
+                lastAcc: "30/03/2020 14:43:01",
+                message: [
+                    {
+                        date: "10/01/2020 15:30:35",
+                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 15:50:12",
+                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        status: "sent",
+                    },
+                    {
+                        date: "10/01/2020 16:12:25",
+                        text: "...Vallo a dire a zio BEN..",
+                        status: "sent",
+                    },
+                ]
             },
             {
                 nome:"Antonio",
@@ -41,5 +96,10 @@ const app = new Vue ({
             }
             
         ]
+    },
+    methods: {
+        changeUser(indice){
+            this.userSelect = indice;
+        }
     }
 });

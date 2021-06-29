@@ -197,6 +197,7 @@ h5 {
     background-image: url("../img/mine.jpg");
     overflow-y: scroll;
     width: 100%;
+    padding: 25px;
 }
 .mex {
     max-width: 45%;
@@ -210,7 +211,8 @@ h5 {
 }
 .messaggio-mitt {
     background-color: rgba(228, 228, 228, 0.972);
-    display: table;
+    display: inline;
+
     
 }
 
