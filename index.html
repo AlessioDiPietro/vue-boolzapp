@@ -148,7 +148,10 @@
 
 
                             <ul>
-                                <li :class="(texture.status === 'sent') ? 'messaggio-utente mex' : 'messaggio-mitt mex' " v-for="texture in contacts[userSelect].message">{{texture.text}}</li>
+                                <li :class="(texture.status === 'sent') ? 'messaggio-utente mex clearfix' : 'messaggio-mitt mex clearfix' " v-for="texture in contacts[userSelect].message">
+                                    <p>{{texture.text}}</p>
+                                    <div class="orario">{{texture.date}}</div>
+                                </li>
 
                             </ul>
 

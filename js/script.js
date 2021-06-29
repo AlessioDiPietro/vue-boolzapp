@@ -36,18 +36,18 @@ const app = new Vue ({
                 lastAcc: "19:23",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "alle 5 del pomeriggio, mio caro SpiderMan!",
+                        date: "10/01/2020 08:20:12",
+                        text: "Ti senti pronto per il viaggio Bilbo Baggins?",
+                        status: "received",
+                    },
+                    {
+                        date: "10/01/2020 9:01:21",
+                        text: "Non lo so Gandalf..a me piace casa mia!",
                         status: "sent",
                     },
                     {
-                        date: "10/01/2020 15:50:12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
-                    },
-                    {
-                        date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
+                        date: "10/01/2020 23:10:30",
+                        text: "Ah beh.. Non saprai cosa c'è fuori la contea così",
                         status: "sent",
                     },
                 ]
@@ -58,19 +58,19 @@ const app = new Vue ({
                 lastAcc: "14:43",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        date: "23/05/2020 19:40:35",
+                        text: "Hei, il carico è arrivato, dobbiamo andare!",
                         status: "sent",
                     },
                     {
-                        date: "10/01/2020 15:50:12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        date: "23/05/2020 20:00:02",
+                        text: "..HEILA\'! STIAMO FACENDO TARDI! ",
                         status: "sent",
                     },
                     {
-                        date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
-                        status: "sent",
+                        date: "23/05/2020 21:12:25",
+                        text: "Hey amico, non sò questo accordo mi puzza..",
+                        status: "received",
                     },
                 ]
             },
@@ -80,18 +80,18 @@ const app = new Vue ({
                 lastAcc: "09:12",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
-                        status: "sent",
+                        date: "29/07/2020 15:10:35",
+                        text: "Porta con te la borsa col denaro..",
+                        status: "received",
                     },
                     {
-                        date: "10/01/2020 15:50:12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
+                        date: "29/07/2020 16:50:12",
+                        text: "E mi raccomando! NIENTE SBIRRI!",
+                        status: "received",
                     },
                     {
-                        date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
+                        date: "29/07/2020 16:58:25",
+                        text: "Ok! ma non fate male al mio pesce rosso!",
                         status: "sent",
                     },
                 ]
@@ -102,18 +102,18 @@ const app = new Vue ({
                 lastAcc: "23:06",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        date: "08/03/2020 23:45:32",
+                        text: "Obi-Wan non ti ha mai detto cosa accadde a tuo padre!",
                         status: "sent",
                     },
                     {
-                        date: "08/03/2020 15:30:00",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
+                        date: "08/03/2020 00:12:00",
+                        text: "Mi ha detto abbastanza: che sei stato tu ad ucciderlo!",
+                        status: "received",
                     },
                     {
                         date: "22/06/2020 18:23:25",
-                        text: "...Vallo a dire a zio BEN..",
+                        text: "No, io sono tuo padre!",
                         status: "sent",
                     },
                 ]
@@ -124,18 +124,18 @@ const app = new Vue ({
                 lastAcc: "12:12",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        date: "19/09/2020 15:30:35",
+                        text: "Stai parlando con me?",
                         status: "sent",
                     },
                     {
-                        date: "19/09/2020 10::12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
+                        date: "20/09/2020 10:08:12",
+                        text: "Che la Forza sia con te.",
+                        status: "received",
                     },
                     {
-                        date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
+                        date: "20/09/2020 16:12:25",
+                        text: "Gli farò un’offerta che non potrà rifiutare.",
                         status: "sent",
                     },
                 ]
@@ -146,19 +146,19 @@ const app = new Vue ({
                 lastAcc: "19:56",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
-                        status: "sent",
+                        date: "30/11/2020 21:21:21",
+                        text: "Il mio nome è Bond, James Bond.",
+                        status: "received",
                     },
                     {
-                        date: "10/01/2020 15:50:12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
-                        status: "sent",
+                        date: "30/11/2020 21:45:11",
+                        text: "..e sono un playboy miliardario filantropo",
+                        status: "received",
                     },
                     {
-                        date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
-                        status: "sent",
+                        date: "30/11/2020 23:56:50",
+                        text: "Ciaaaao.Io sono RICK.",
+                        status: "",
                     },
                 ]
             },
@@ -168,19 +168,24 @@ const app = new Vue ({
                 lastAcc: "09:40",
                 message: [
                     {
-                        date: "10/01/2020 15:30:35",
-                        text: "Sò chi sei veramente, mio caro SpiderMan!",
+                        date: "31/12/2020 23:59:57",
+                        text: ".. -3!",
                         status: "sent",
                     },
                     {
-                        date: "10/01/2020 15:50:12",
-                        text: "Ricordati che da piccoli poteri derivano grandi responsabilità",
+                        date: "31/12/2020 23:59:58",
+                        text: ".. -2!",
+                        status: "sent",
+                    },
+                    {
+                        date: "31/12/2020 23:59:59",
+                        text: ".. -1!",
                         status: "sent",
                     },
                     {
                         date: "10/01/2020 16:12:25",
-                        text: "...Vallo a dire a zio BEN..",
-                        status: "sent",
+                        text: "Buon anno nuovo?",
+                        status: "received",
                     },
                 ]
             }

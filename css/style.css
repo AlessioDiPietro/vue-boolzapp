@@ -207,6 +207,7 @@ h5 {
     border-radius: 18px;
     padding: 12px 20px;
     margin: 15px;
+    transition: 1.5s;
 }
 .messaggio-utente {
     background-color: rgba(38, 121, 38, 0.972);
@@ -216,9 +217,20 @@ h5 {
 .messaggio-mitt {
     background-color: rgba(228, 228, 228, 0.972);
     float: left;
-    margin-right: 300px;
-    
-    
+    margin-right: 300px; 
+}
+.orario {
+    float: right;
+    font-size: 9px;
+    color: lightgrey;
+    margin-top: 10px;
+    display: none;
+}
+.messaggio-utente .orario {
+    float: left;
+}
+#area-chat ul li:hover .orario{
+    display: block;
 }
 
 /* barra inserimento mex */
