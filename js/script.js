@@ -190,21 +190,23 @@ const app = new Vue ({
                 ]
             }
         ],
-        newMex: {
-            text:"",
-            status: "sent"
-        }
+        newText: ""
+        
     },
     methods: {
         changeUser(indice){
             this.userSelect = indice;
         },
+
         addMex(){
-            this.contacts.push(this.newMex.text)
-            this.newMex = {
-                text:"",
-                status:""
-            };
+            this.contacts[this.userSelect].message.push({
+                
+                    text:this.newText,
+                    status: "sent",
+                    date: "10/01/2020 16:12:25"
+                }
+            );
+            this.newText = "";
         }
     }
 });
