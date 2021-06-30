@@ -191,7 +191,7 @@ const app = new Vue ({
             }
         ],
         newText: "",
-        newDate: ""
+        newDate: this.timing
         
     },
     methods: {
@@ -207,7 +207,7 @@ const app = new Vue ({
                     
                         text:this.newText,
                         status: "sent",
-                        date: "10/01/2020 16:12:25"
+                        date: dayjs().format("YYYY/MM/DD/ HH:mm:ss")
                     }
                 );
                 this.newText = "";
@@ -218,7 +218,7 @@ const app = new Vue ({
                     
                         text:"ciao!",
                         status: "received",
-                        date: "10/01/2020 16:12:25"
+                        date: dayjs().format("YYYY/MM/DD/ HH:mm:ss")
                     })
                 }, 1000);
                 
@@ -229,3 +229,4 @@ const app = new Vue ({
 
     }
 });
+
