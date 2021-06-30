@@ -207,6 +207,16 @@ const app = new Vue ({
                 }
             );
             this.newText = "";
-        }
+            setTimeout(() => {
+                this.contacts[this.userSelect].message.push({
+                
+                    text:"ciao!",
+                    status: "received",
+                    date: "10/01/2020 16:12:25"
+                })
+            }, 1000);
+        },
+
+
     }
 });
