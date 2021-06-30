@@ -199,22 +199,29 @@ const app = new Vue ({
         },
 
         addMex(){
-            this.contacts[this.userSelect].message.push({
-                
-                    text:this.newText,
-                    status: "sent",
-                    date: "10/01/2020 16:12:25"
-                }
-            );
-            this.newText = "";
-            setTimeout(() => {
+            
+            if(!this.newText == ""){
+
                 this.contacts[this.userSelect].message.push({
+                    
+                        text:this.newText,
+                        status: "sent",
+                        date: "10/01/2020 16:12:25"
+                    }
+                );
+                this.newText = "";
+    
                 
-                    text:"ciao!",
-                    status: "received",
-                    date: "10/01/2020 16:12:25"
-                })
-            }, 1000);
+                setTimeout(() => {
+                    this.contacts[this.userSelect].message.push({
+                    
+                        text:"ciao!",
+                        status: "received",
+                        date: "10/01/2020 16:12:25"
+                    })
+                }, 1000);
+                
+            }
         },
 
 
