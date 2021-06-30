@@ -190,7 +190,8 @@ const app = new Vue ({
                 ]
             }
         ],
-        newText: ""
+        newText: "",
+        newDate: ""
         
     },
     methods: {
@@ -223,6 +224,7 @@ const app = new Vue ({
                 
             }
         },
+        
 
 
     }
