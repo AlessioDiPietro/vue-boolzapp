@@ -188,6 +188,9 @@ h5 {
 #right main {
     height: calc(100% - 85px);
 }
+#right .container-main{
+    overflow-y: scroll;
+}
 .container-main {
     height: 100%;
 }
