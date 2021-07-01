@@ -195,6 +195,7 @@ const app = new Vue ({
         newText: "",
         newDate: this.timing,
         ricerca:"",
+        numMex : 0
         
     },
 
@@ -233,6 +234,9 @@ const app = new Vue ({
 
         eliminaAllMex(){
             return this.contacts[this.userSelect].message = []
+        },
+        lastMex(){
+            return this.contacts[this.userSelect].message.length-1;
         }
 
     },
