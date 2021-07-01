@@ -191,7 +191,8 @@ const app = new Vue ({
             }
         ],
         newText: "",
-        newDate: this.timing
+        newDate: this.timing,
+        ricerca:"",
         
     },
     methods: {
@@ -220,13 +221,19 @@ const app = new Vue ({
                         status: "received",
                         date: dayjs().format("YYYY/MM/DD/ HH:mm:ss")
                     })
-                }, 1000);
-                
+                }, 1000);  
             }
         },
-        
+
+
+        uppercaseRicerca() {
+            
+            return this.ricerca.string[0].toUpperCase() + string.slice(1).toLowerCase();
+
+
+        },
 
 
     }
-});
 
+});

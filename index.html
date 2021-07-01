@@ -85,7 +85,7 @@
                             <div class="box-ricerca">
 
                                 <i class="fas fa-search"></i>
-                                <input type="text" placeholder="Cerca o inizia una nuova chat">
+                                <input type="text" v-model="ricerca" placeholder="Cerca o inizia una nuova chat">
 
                             </div>
 
@@ -96,7 +96,7 @@
 
                             
                             <ul>
-                                <li v-for="(items, index) in contacts" @click="changeUser(index)">
+                                <li v-for="(items, index) in contacts" @click="changeUser(index)" v-if="items.nome.includes(ricerca)">
                                     <img :src="items.avatar" alt="user">
                                     <h5>{{items.nome}}</h5>
                                 </li>
