@@ -99,7 +99,7 @@
                                 <li v-for="(items, index) in contacts" @click="changeUser(index)" v-if="items.nome.toUpperCase().includes(ricerca.toUpperCase())">
                                     <img :src="items.avatar" alt="user">
                                     <h5>{{items.nome}}</h5>
-                                    <div class="anteprima">{{items.message[2].text}}</div>
+                                    <div class="anteprima"></div>
                                 </li>
                             </ul>
 
@@ -151,14 +151,18 @@
 
 
                             <ul>
-                                <li :class="(texture.status === 'sent') ? 'messaggio-utente mex clearfix' : 'messaggio-mitt mex clearfix' " v-for="texture in contacts[userSelect].message">
+                                <li :class="(texture.status === 'sent') ? 'messaggio-utente mex clearfix' : 'messaggio-mitt mex clearfix' " v-for="(texture, indiceMex) in contacts[userSelect].message">
                                     <p>{{texture.text}}</p>
                                     <div class="orario">{{texture.date}}</div>
                                     <button class="tendina">
-                                        <i class="fas fa-sort-down"></i>
+                                        <i class="fas fa-sort-down green"></i>
                                         <ul class="lista-hidden">
-                                            <li>elimina chat</li>
-                                            <li>elimina tutta la chat</li>
+                                            <li>elimina chat
+                                                <i class="far fa-trash-alt" @click="eliminaMex(indiceMex)"></i>
+                                            </li>
+                                            <li>elimina tutta la chat
+                                                <i class="far fa-trash-alt" @click="eliminaAllMex"></i>
+                                            </li>
                                         </ul>
                                     </button>
                                 </li>

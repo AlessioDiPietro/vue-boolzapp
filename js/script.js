@@ -224,6 +224,13 @@ const app = new Vue ({
                 }, 1000);  
             }
         },
+        eliminaMex(indice){
+            this.contacts[this.userSelect].message.splice(indice,1)
+        },
+
+        eliminaAllMex(){
+            return this.contacts[this.userSelect].message = []
+        }
 
     }
 

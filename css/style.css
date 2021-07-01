@@ -268,19 +268,20 @@ h5 {
     border-bottom: 1px solid lightgray;
     
 }
-.lista-hidden li:hover {
+.lista-hidden li i:hover {
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.609);
+    color: red;
 }
 .tendina:focus .lista-hidden{
     display: inline-block;
 }
-.tendina:hover i{
+.tendina:hover .green{
     color: yellowgreen;
 }
 .messaggio-mitt .tendina {
     float: left;
 }
+
 
 /* barra inserimento mex */
 #inserimento-mex {
