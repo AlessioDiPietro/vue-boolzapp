@@ -99,6 +99,7 @@
                                 <li v-for="(items, index) in contacts" @click="changeUser(index)" v-if="items.nome.toUpperCase().includes(ricerca.toUpperCase())">
                                     <img :src="items.avatar" alt="user">
                                     <h5>{{items.nome}}</h5>
+                                    <div class="anteprima">{{items.message[2].text}}</div>
                                 </li>
                             </ul>
 

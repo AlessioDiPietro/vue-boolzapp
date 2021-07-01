@@ -225,14 +225,6 @@ const app = new Vue ({
             }
         },
 
-
-        uppercaseRicerca() {
-            
-            return this.ricerca.charAt(0).toUpperCase() + this.ricerca.slice(1);
-
-        },
-
-
     }
 
 });
