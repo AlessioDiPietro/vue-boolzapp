@@ -190,6 +190,8 @@ h5 {
 }
 #right .container-main{
     overflow-y: scroll;
+    height: calc(100% - 85px);
+    background-image: url("../img/mine.jpg");
 }
 .container-main {
     height: 100%;
@@ -197,7 +199,6 @@ h5 {
 /* chat-messaggi */
 #area-chat {
     height: calc(100% - 85px);
-    background-image: url("../img/mine.jpg");
     overflow-y: scroll;
     width: 100%;
     padding: 25px;
@@ -216,6 +217,7 @@ h5 {
     background-color: rgba(38, 121, 38, 0.972);
     float: right;
     margin-left: 300px;
+    text-align: right;
 }
 .messaggio-mitt {
     background-color: rgba(228, 228, 228, 0.972);
@@ -234,6 +236,43 @@ h5 {
 }
 #area-chat ul li:hover .orario{
     display: block;
+}
+.tendina {
+    float: right;
+    border: none;
+    padding-bottom: 4px;
+    background-color:transparent;
+    cursor: pointer;
+    position: relative;
+}
+.lista-hidden {
+    display: none;
+    background-color: white;
+    width: 120px;
+    border: 2px black solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: -55px;
+    
+}
+.lista-hidden li {
+    padding: 4px;
+    border-bottom: 1px solid lightgray;
+    border-radius: 5px;
+}
+.lista-hidden li:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.609);
+}
+.tendina:focus .lista-hidden{
+    display: inline-block;
+}
+.tendina:hover i{
+    color: yellowgreen;
+}
+.messaggio-mitt .tendina {
+    float: left;
 }
 
 /* barra inserimento mex */
