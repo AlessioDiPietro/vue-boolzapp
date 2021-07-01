@@ -1,6 +1,8 @@
 // Milestone 1•Replica della grafica con la possibilità di avere messaggi scritti dall’utente (verdi) e dall’interlocutore (bianco) assegnando due classi CSS diverse•Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
 
 
+var scrollB = document.getElementById("end-scroll");
+scrollB.scrollTop = scrollB.scrollHeight;
 const app = new Vue ({
 
     el: "#app",
@@ -195,6 +197,7 @@ const app = new Vue ({
         ricerca:"",
         
     },
+
     methods: {
         changeUser(indice){
             this.userSelect = indice;
@@ -232,6 +235,8 @@ const app = new Vue ({
             return this.contacts[this.userSelect].message = []
         }
 
-    }
-
+    },
+    
+    
 });
+
