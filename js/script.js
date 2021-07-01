@@ -228,8 +228,7 @@ const app = new Vue ({
 
         uppercaseRicerca() {
             
-            return this.ricerca.string[0].toUpperCase() + string.slice(1).toLowerCase();
-
+            return this.ricerca.charAt(0).toUpperCase() + this.ricerca.slice(1);
 
         },
 
