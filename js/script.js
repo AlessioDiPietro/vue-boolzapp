@@ -232,15 +232,12 @@ const app = new Vue ({
             this.contacts[this.userSelect].message.splice(indice,1)
         },
 
-        eliminaAllMex(){
-            return this.contacts[this.userSelect].message = []
-        },
-        lastMex(){
-            return this.contacts[this.userSelect].message.length-1;
-        },
         scollBottom(){
             const scroll= document.getElementById("end-scroll");
             scroll.scrollTop = scroll.scrollHeight;
+        },
+        lastMex(indice){
+            return this.contacts[indice].message[this.contacts[indice].message.length - 1].text
         }
         
 

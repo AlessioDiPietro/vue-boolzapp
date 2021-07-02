@@ -168,6 +168,8 @@ h5 {
 .anteprima {
     color: grey;
     font-size: 10px;
+    float: right;
+    margin-top: 55px;
 }
 
 /* right aside */

@@ -99,7 +99,8 @@
                                 <li v-for="(items, index) in contacts" @click="changeUser(index)" v-if="items.nome.toUpperCase().includes(ricerca.toUpperCase())">
                                     <img :src="items.avatar" alt="user">
                                     <h5>{{items.nome}}</h5>
-                                    <div class="anteprima" v-if="items.message.slice(-1)[0].text">{{items.message[numMex].text}}</div>
+                                    <div class="anteprima" v-if="lastMex(index)">{{lastMex(index)}}</div>
+                                    <div class="anteprima" v-else>Non ci sono Messaggi</div>
                                     
                                 </li>
                             </ul>
@@ -158,7 +159,7 @@
                                     <button class="tendina">
                                         <i class="fas fa-sort-down green"></i>
                                         <ul class="lista-hidden">
-                                            <li>elimina chat
+                                            <li>elimina mesaggio
                                                 <i class="far fa-trash-alt" @click="eliminaMex(indiceMex)"></i>
                                             </li>
                                             <li>elimina tutta la chat
