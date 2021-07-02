@@ -237,10 +237,17 @@ const app = new Vue ({
         },
         lastMex(){
             return this.contacts[this.userSelect].message.length-1;
+        },
+        scollBottom(){
+            const scroll= document.getElementById("end-scroll");
+            scroll.scrollTop = scroll.scrollHeight;
         }
+        
+
 
     },
-    
+    mounted(){
+    }
     
 });
 
